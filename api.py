@@ -5,6 +5,8 @@ from classifier import predict_pairs
 from merger import merge_lines
 import math
 
+## para esto primero me hice los scripts solo y después le pedi a deepseek que le haga un refactor.
+
 def detect_lines(image_path, out_dir):
     os.makedirs(out_dir, exist_ok=True)
     # 1) Leer y preprocesar
